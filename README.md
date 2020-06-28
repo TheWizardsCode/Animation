@@ -7,6 +7,13 @@ out of the box. Help us make this package truly useful by contributing.
 
 If you know of a source of decent open source animations let us.
 
+# Installation
+
+  1. `Window -> Package Manager`
+  2. Click the '+" in the top left
+  3. Select 'Add package from Git URL'
+  4. Paste in 'https://github.com/TheWizardsCode/Animation.git#release/stable'
+
 # Release Process
 
 We use [PackageTools](https://github.com/3dtbd/unity-package-tools) to create our releases. To build a release:

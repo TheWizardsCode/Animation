@@ -12,7 +12,7 @@ If you know of a source of decent open source animations let us.
   1. `Window -> Package Manager`
   2. Click the '+" in the top left
   3. Select 'Add package from Git URL'
-  4. Paste in 'https://github.com/TheWizardsCode/Animation.git#release/stable'
+  4. Paste in `https://github.com/TheWizardsCode/Animation.git#release/stable`
 
 # Release Process
 

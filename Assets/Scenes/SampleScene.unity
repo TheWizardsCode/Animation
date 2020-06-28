@@ -120,7 +120,7 @@ NavMeshSettings:
     accuratePlacement: 0
     debug:
       m_Flags: 0
-  m_NavMeshData: {fileID: 0}
+  m_NavMeshData: {fileID: 23800000, guid: c3df6ea503d338c43b5dc798ed542256, type: 2}
 --- !u!1 &213221322
 GameObject:
   m_ObjectHideFlags: 0
@@ -138,7 +138,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 8
   m_IsActive: 1
 --- !u!64 &213221323
 MeshCollider:
@@ -473,6 +473,31 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 3052972817244790426, guid: 106d2553ccf496b488757988d0d559a4,
+        type: 3}
+      propertyPath: m_BaseOffset
+      value: -0.08
+      objectReference: {fileID: 0}
+    - target: {fileID: 3052972817244790426, guid: 106d2553ccf496b488757988d0d559a4,
+        type: 3}
+      propertyPath: m_AutoBraking
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3052972817244790426, guid: 106d2553ccf496b488757988d0d559a4,
+        type: 3}
+      propertyPath: m_StoppingDistance
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 3052972817244790426, guid: 106d2553ccf496b488757988d0d559a4,
+        type: 3}
+      propertyPath: m_AngularSpeed
+      value: 140
+      objectReference: {fileID: 0}
+    - target: {fileID: 3052972817244790426, guid: 106d2553ccf496b488757988d0d559a4,
+        type: 3}
+      propertyPath: m_Speed
+      value: 5
+      objectReference: {fileID: 0}
     - target: {fileID: 3052972817244821538, guid: 106d2553ccf496b488757988d0d559a4,
         type: 3}
       propertyPath: m_Name
@@ -507,3 +532,15 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   SpeedParameterName: Forward
   TurnParameterName: Turn
+--- !u!114 &1677247589
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1677247581}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 52c6fde66542a6a479ba6166c5fbac21, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 

@@ -13,9 +13,11 @@ MonoBehaviour:
   m_Name: PackageManifestConfig
   m_EditorClassIdentifier: 
   packageSourcePaths:
-  - Assets/WizardsCode-Animation
-  packageIgnorePaths: []
-  packageDestinationPath: 
+  - Assets
+  packageIgnorePaths:
+  - Assets/PackageManifestConfig.asset
+  - Assets/Generated
+  packageDestinationPath: ../Animation-ReleaseStable
   legacyPackageDestinationPath: 
   packageName: org.wizardscode.animation
   displayName: Wizards Code - Animation

@@ -16,10 +16,11 @@ namespace threeDTBD.Animation
         private string SpeedParameterName = "Forward";
         [SerializeField, Tooltip("The name of the parameter in the animator that sets the turn angle of the character.")]
         private string TurnParameterName = "Turn";
+        [SerializeField, Tooltip("The speed of this character when at a run. It will usually be going slower than this, and for short periods, can go faster (at a spring).")]
+        private float m_RunningSpeed = 8;
 
         private Animator m_Animator;
         private NavMeshAgent m_Agent;
-        private float m_RunningSpeed = 8;
 
         protected virtual void Start()
         {
@@ -31,7 +32,13 @@ namespace threeDTBD.Animation
         {
             if (m_Animator != null && m_Agent != null)
             {
-                m_Animator.SetFloat(SpeedParameterName, m_Agent.desiredVelocity.magnitude / m_RunningSpeed);
+                float speed = m_Agent.desiredVelocity.magnitude / m_RunningSpeed;
+                if (speed < 0.1 || speed > 0.1) {
+                    m_Animator.SetFloat(SpeedParameterName, speed);
+                } else
+                {
+                    m_Animator.SetFloat(SpeedParameterName, 0);
+                }
 
                 Vector3 s = m_Agent.transform.InverseTransformDirection(m_Agent.velocity).normalized;
                 float turn = s.x;

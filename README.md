@@ -14,6 +14,17 @@ If you know of a source of decent open source animations let us.
   3. Select 'Add package from Git URL'
   4. Paste in `https://github.com/TheWizardsCode/Animation.git#release/stable`
 
+# Documentation
+
+This is an open source project, don't expect stellar documentation, but do help us improve what we have in the [Documentation](Assets/Documentation) folder.
+
+To make this easier we use a Unity [Markdown Plugin](https://github.com/gwaredd/UnityMarkdownViewer) that allows you to view the documentation from within Unity. 
+You can create a new markdown document from the assets create menu Assets -> Create -> Markdown.
+
+# Development
+
+We welcome your contributons to this project. This repository is a complete Unity project, check it out and have at it. Note, this repository is not intended for import into your projects, see the Installation section above for that use case.
+
 # Release Process
 
 We use [PackageTools](https://github.com/3dtbd/unity-package-tools) to create our releases. To build a release:

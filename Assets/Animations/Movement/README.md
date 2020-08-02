@@ -1,6 +1,9 @@
 Animations in the folder are from the Unity Multipurpose Avatar project. They are available under an MIT license.
 Go and check UMA out, it's awesome!
 
+Note that these animations are incomplete. They don't really do what they claim :-(, for the most part. They are placeholders
+until we can get a full set of animations together that do what they are supposed to do.
+
 Unity Multipurpose Avatar System, or UMA for short, is a free character creation and modification system with 
 lots of cool features. UMA was designed with flexibility in mind, so although it's primary purpose is for working 
 with humanoid characters, its systems can be adapted to work with any model you like. So if you want to create 

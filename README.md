@@ -1,5 +1,5 @@
 # Animation
-Animation controllers, Animations and Scripts relating to animation.
+Animation controllers, Animations and Scripts relating to Unity animations.
 
 I am not an animator. The animations in here are not, at least right now, very good. However, this is a useful library for use in other 
 open source projects that need animations and controllers in demo scenes. While not pretty it does enable open source projects to work
@@ -7,12 +7,25 @@ out of the box. Help us make this package truly useful by contributing.
 
 If you know of a source of decent open source animations let us.
 
+What we have so far:
+
+  * Humanoid Animation Controller with layers for movement and talking
+  * NavMesh movement to Animation Controller parameters MonoBehaviour
+  * Support scripts or semi-procedural body/arms animation for a talking character (does not provide Lip Sync we recommend [Salsa](http://bit.ly/UnitySalsa) for that)
+  * Wander script
+
 # Installation
+
+## Unity 2019
 
   1. `Window -> Package Manager`
   2. Click the '+" in the top left
   3. Select 'Add package from Git URL'
   4. Paste in `https://github.com/TheWizardsCode/Animation.git#release/stable`
+
+## Unity 2018
+
+  You need to manualy add the above URL to the package mananifest.
 
 # Documentation
 

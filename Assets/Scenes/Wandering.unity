@@ -120,7 +120,7 @@ NavMeshSettings:
     accuratePlacement: 0
     debug:
       m_Flags: 0
-  m_NavMeshData: {fileID: 23800000, guid: c3df6ea503d338c43b5dc798ed542256, type: 2}
+  m_NavMeshData: {fileID: 23800000, guid: b3a637fd88265cc4c90ff57017a4c42a, type: 2}
 --- !u!1 &213221322
 GameObject:
   m_ObjectHideFlags: 0
@@ -532,6 +532,26 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   SpeedParameterName: Forward
   TurnParameterName: Turn
+  m_RunningSpeed: 8
+--- !u!114 &1677247583
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1677247581}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 74c88fa94d915b74baa4e2395df4111f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  minTimeBetweenRandomPathChanges: 5
+  maxTimeBetweenRandomPathChanges: 15
+  minDistanceOfRandomPathChange: 10
+  maxDistanceOfRandomPathChange: 20
+  minAngleOfRandomPathChange: -60
+  maxAngleOfRandomPathChange: 60
+  m_MaxWanderRange: 50
 --- !u!114 &1677247589
 MonoBehaviour:
   m_ObjectHideFlags: 0

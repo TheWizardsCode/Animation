@@ -1,6 +1,7 @@
 {
   "dependencies": {
     "com.jeffcampbellmakesgames.packagetools": "https://github.com/jeffcampbellmakesgames/unity-package-tools.git#release/stable",
+    "com.mischief.markdownviewer": "https://github.com/gwaredd/UnityMarkdownViewer.git",
     "com.unity.collab-proxy": "1.2.16",
     "com.unity.ide.rider": "1.1.4",
     "com.unity.ide.vscode": "1.2.0",
@@ -45,6 +46,10 @@
     "com.jeffcampbellmakesgames.packagetools": {
       "revision": "release/stable",
       "hash": "32a2d178b56f4dcddf5d053e29f2ba584eafdbcf"
+    },
+    "com.mischief.markdownviewer": {
+      "revision": "HEAD",
+      "hash": "73dc46bac76277918c8bc111f8813221ad8b2872"
     }
   }
 }

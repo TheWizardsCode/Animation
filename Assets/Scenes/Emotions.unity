@@ -847,11 +847,11 @@ MonoBehaviour:
     m_VerticalOverflow: 0
     m_LineSpacing: 1
   m_Text: 'This scene demonstrates how you can control the animations played through
-    the emotions of a character. See FIXME: add You Tube link
+    the emotions of a character. See https://youtu.be/HnFmDeWkzNQ
 
 
-    Note that, at
-    present, we have no animations for talking. You can download a set of talking
+    Note that,
+    at present, we have no animations for talking. You can download a set of talking
     animations from http://mixamo.com or use your own. See the Talking layer of the
     animation controller and the above video for guidance.
 

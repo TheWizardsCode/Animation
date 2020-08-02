@@ -1,6 +1,6 @@
 # Emotions
 
-The Emotions scene demonstrates how a characters animations can be influenced by their emotional state. For a quick introduction see FIXME: Add You Tube link
+The Emotions scene demonstrates how a characters animations can be influenced by their emotional state. For a quick introduction see https://youtu.be/HnFmDeWkzNQ
 
 Note that, at the time of writing we do not have enough animations to show off the emotional animatons. Therefore all that you can see at the moment is the demo UI for controlling emotions and the output that this has for animation controller parameters.
 

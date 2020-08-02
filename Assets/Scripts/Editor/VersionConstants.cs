@@ -8,17 +8,17 @@ namespace org.WizardsCode.Animator.Editor
 		/// <summary>
 		/// The semantic version
 		/// </summary>
-		public const string VERSION = "0.0.4";
+		public const string VERSION = "0.0.5";
 
 		/// <summary>
 		/// The branch of GIT this package was published from.
 		/// </summary>
-		public const string GIT_BRANCH = "talking";
+		public const string GIT_BRANCH = "master";
 
 		/// <summary>
 		/// The current GIT commit hash this package was published on.
 		/// </summary>
-		public const string GIT_COMMIT = "259ff9ac36e749007bfe8722124b12025cce977c";
+		public const string GIT_COMMIT = "a717a59a9f8e13ac5499488f95e6a13a8d27d4da";
 
 		/// <summary>
 		/// The UTC human-readable date this package was published at.
@@ -28,6 +28,6 @@ namespace org.WizardsCode.Animator.Editor
 		/// <summary>
 		/// The UTC time this package was published at.
 		/// </summary>
-		public const string PUBLISH_TIME = "08/02/2020 16:17:44";
+		public const string PUBLISH_TIME = "08/02/2020 18:02:43";
 	}
 }

@@ -601,7 +601,7 @@ AnimatorController:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: Humanoid Animation Controller
+  m_Name: Humanoid Animation Controller with Talking Layer
   serializedVersion: 5
   m_AnimatorParameters:
   - m_Name: Speed

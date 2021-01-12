@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 
 
-namespace ThreeDTBD.Animation
+namespace WizardsCode.Animation
 {
     /// <summary>
     /// Look At a point of interest using the Animator LookAt API.

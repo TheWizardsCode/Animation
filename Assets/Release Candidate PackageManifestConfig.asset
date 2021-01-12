@@ -10,21 +10,17 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: a29f67b488b4458983fd973bbda8c8fa, type: 3}
-  m_Name: PackageManifestConfig
+  m_Name: Release Candidate PackageManifestConfig
   m_EditorClassIdentifier: 
   packageSourcePaths:
-  - Assets
-  packageIgnorePaths:
-  - Assets/PackageManifestConfig.asset
-  - Assets/Generated
-  - Assets/UMotion Projects
-  - Assets/UMotionEditor
-  - Assets/UMotionExamples
-  packageDestinationPath: ../Animation-ReleaseStable
+  - Assets/WizardsCode
+  - Assets/README.md
+  packageIgnorePaths: []
+  packageDestinationPath: ../Animation-Release
   legacyPackageDestinationPath: 
   packageName: org.wizardscode.animation
   displayName: Wizards Code - Animation
-  packageVersion: 0.0.6
+  packageVersion: 0.0.7
   unityVersion: 2019.4
   description: Open source scripts, animation controllers and animations.
   category: Animation

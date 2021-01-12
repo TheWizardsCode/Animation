@@ -30,3 +30,9 @@ Try setting foot IK (https://docs.unity3d.com/Manual/InverseKinematics.html)
 
 ![Screenshot](F:\Unity Projects\WizardsCode\Animation\DevLog\ScreenCaptures\UnityEditor.InspectorWindow_Animation_Sitting_v0.1_132547719760000000.png)
 
+## Monday 11 January 2021, 19:06
+
+Sit is now complete (using Mixamo animations)
+
+![Screenshot](F:\Unity Projects\WizardsCode\Animation\DevLog\ScreenCaptures\In_Game_Footage_Animation_Sitting_v0.1_132548943590000000.gif)
+

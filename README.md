@@ -40,11 +40,25 @@ We welcome your contributons to this project. This repository is a complete Unit
 
 # Release Process
 
-We use [PackageTools](https://github.com/3dtbd/unity-package-tools) to create our releases. To build a release:
+We use [PackageTools](https://github.com/jeffcampbellmakesgames/unity-package-tools) to create our releases. To build a release:
 
-  0. Alongside your working repository checkout the `release/stable` branch of this repo
-  1. Update (at least) the version number in the `PackageManifestConfig` in the root of the `Assets` folder
-  2. Click `Generate VersionConstants.cs` in the inspector
-  3. Commit the new constants file to Git
-  4. Click `Export Package Source`
-  5. Commit and push the changes in your release project to GitHub
+  0. Alongside your working repository checkout the `release/stable` branch of this repo into a directory called `Animation-Release` using `git clone --single-branch --branch release/stable git@github.com:TheWizardsCode/Animation.git Animation-Release`
+  1. Update the version number in the `Release Candidate PackageManifestConfig` to match that in `DevTest PackageManifestConfig` (both are in the root of the `Assets` folder)
+  2. Increase the version number in the `DevTest PackageManifestConfig` to represent the next release number (not this release)
+  3. Click `Generate VersionConstants.cs` in the inspector from the `Release Candidate PackageManifestConfig` inspector
+  4. Commit the new constants file to Git
+  5. Click `Export Package Source` in the inspector for the `Release Candidate PackageManifestConfig`
+  6. Commit and push the changes in `DevLogger-Release` to GitHub [SEE BELOW for a known issue]
+
+NOTE there is currently a [bug](https://github.com/jeffcampbellmakesgames/unity-package-tools/issues/11) in the package manager tool that prevents the above from working, at least on my machine. You can work around the bug with the following steps:
+
+1. Delete the existing package directory
+2. Export the package source
+3. cd into the package directory
+4. `git init`
+5. `git remote add origin git@...`
+6. `git fetch`
+7. `git add .`
+8. `git commit -m "Release v0.2.5`
+9. `git branch -m master release/stable`
+10. `git push -f -u origin release/stable`

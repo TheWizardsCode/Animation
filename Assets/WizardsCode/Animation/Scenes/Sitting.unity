@@ -309,7 +309,7 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Controller
       value: 
-      objectReference: {fileID: 22100000, guid: b9d6d999f3ed6de4d8f598c1f2fde7bf,
+      objectReference: {fileID: 22100000, guid: a306745a8b724b4449533c9a1bbe3382,
         type: 2}
     - target: {fileID: 5866666021909216657, guid: 38acb02fb7ebe2144be55d8bda3632d5,
         type: 3}
@@ -717,7 +717,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Width: 320
-  m_Height: 239
+  m_Height: 236
   m_AutoAspect: 1
   m_FramePerSecond: 15
   m_Repeat: 0
@@ -1228,8 +1228,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d5094fdaeeac6484c8964cd0bec4d316, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  sitButton: {fileID: 595016156}
-  standButton: {fileID: 1365939463}
   sitPosition: {fileID: 194224579}
   animator: {fileID: 1181372513}
   controller: {fileID: 1181372515}

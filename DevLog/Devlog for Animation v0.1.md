@@ -36,3 +36,7 @@ Sit is now complete (using Mixamo animations)
 
 ![Screenshot](F:\Unity Projects\WizardsCode\Animation\DevLog\ScreenCaptures\In_Game_Footage_Animation_Sitting_v0.1_132548943590000000.gif)
 
+## Tuesday 12 January 2021, 19:35
+
+A couple of bug fixes and tidy ups v0.0.9
+

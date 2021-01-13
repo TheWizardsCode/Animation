@@ -5,10 +5,6 @@ namespace WizardsCode.Animation.DevTest
 {
     public class SittingBehaviours : MonoBehaviour
     {
-        [Header("UI")]
-        public Button sitButton;
-        public Button standButton;
-
         [Header("Environment")]
         public Transform sitPosition;
 

@@ -39,7 +39,7 @@ namespace WizardsCode.Animation
         {
             if (!m_Head)
             {
-                Debug.LogError("No head transform - LookAt disabled");
+                Debug.LogWarning("No head transform - LookAt disabled");
                 enabled = false;
                 return;
             }

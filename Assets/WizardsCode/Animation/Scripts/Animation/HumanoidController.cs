@@ -44,7 +44,7 @@ namespace WizardsCode.Animation
         /// <param name="arrivingCallback">Called as the character is arriving at the destination. This is called when the character is entering the ArrivingDistance defined in the NavMeshController.</param>
         /// <param name="arrivedCallback">Called as the character arrives at the destination. Arrival is defined by the NavMeshAgent.</param>
         /// <param name="stationaryCallback">Called once the character has stopped moving.</param>
-        internal void MoveTo(Vector3 position, Action arrivingCallback, Action arrivedCallback, Action stationaryCallback)
+        public void MoveTo(Vector3 position, Action arrivingCallback, Action arrivedCallback, Action stationaryCallback)
         {
             connector.onArriving = arrivingCallback;
             connector.onArrived = arrivedCallback;
@@ -52,7 +52,7 @@ namespace WizardsCode.Animation
             agent.SetDestination(position);
         }
 
-        internal void Sit(Transform sitPosition)
+        public void Sit(Transform sitPosition)
         {
             MoveTo(sitPosition.position, () =>
             {

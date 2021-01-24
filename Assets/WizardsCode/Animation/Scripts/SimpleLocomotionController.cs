@@ -13,9 +13,9 @@ namespace threeDTBD.Animation
     public class SimpleLocomotionController : MonoBehaviour
     {
         [SerializeField, Tooltip("The name of the parameter in the animator that sets the forward speed of the character.")]
-        private string SpeedParameterName = "Forward";
+        private string SpeedParameterName = "InputMagnitude";
         [SerializeField, Tooltip("The name of the parameter in the animator that sets the turn angle of the character.")]
-        private string TurnParameterName = "Turn";
+        private string TurnParameterName = "InputAngle";
         [SerializeField, Tooltip("The speed of this character when at a run. It will usually be going slower than this, and for short periods, can go faster (at a spring).")]
         private float m_RunningSpeed = 8;
 

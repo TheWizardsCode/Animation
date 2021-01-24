@@ -29,6 +29,15 @@ namespace WizardsCode.Character.UI
         [SerializeField, Tooltip("The emotion control template to use when creating new UI elements for emotions.")]
         GameObject m_EmotionTemplate;
 
+        private void Awake()
+        {
+            if (m_EmotionalState == null)
+            {
+                Debug.LogWarning("No Emotional State has been set to track, disabling the EmotionalStateUI.");
+                gameObject.SetActive(false);
+            }
+        }
+
         private void Start()
         {
             for (int i = 0; i < m_EmotionalState.emotions.Count; i++)

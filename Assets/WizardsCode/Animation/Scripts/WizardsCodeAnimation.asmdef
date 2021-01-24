@@ -1,5 +1,5 @@
 {
-    "name": "WizardsCodeAnimation",
+    "name": "WizardsCode.Animation",
     "references": [
         "Unity.Timeline"
     ],

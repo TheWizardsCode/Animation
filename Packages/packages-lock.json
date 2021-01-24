@@ -101,7 +101,7 @@
       "dependencies": {}
     },
     "org.wizardscode.devlogger": {
-      "version": "file:F:/Unity Projects/WizardsCode/DevLogger-TestPackage",
+      "version": "file:F:/Unity Projects/WizardsCode/DevLogger-DevTest",
       "depth": 0,
       "source": "local",
       "dependencies": {

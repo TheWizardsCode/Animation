@@ -56,7 +56,7 @@ NOTE there is currently a [bug](https://github.com/jeffcampbellmakesgames/unity-
 2. Export the package source
 3. cd into the package directory
 4. `git init`
-5. `git remote add origin git@...`
+5. `git remote add origin git@github.com:TheWizardsCode/Animation.git`
 6. `git fetch`
 7. `git add .`
 8. `git commit -m "Release v0.2.5`

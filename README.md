@@ -1,3 +1,22 @@
+This repository has been merged with https://github.com/TheWizardsCode/Character please use that repo instead.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Original README
+
 # Animation
 Animation controllers, Animations and Scripts relating to Unity animations.
 
